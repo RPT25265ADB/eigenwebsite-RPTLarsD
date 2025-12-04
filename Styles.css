@@ -1,0 +1,73 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: green;
+}
+/*Dit maakt de achtergrond groen en het teksttype Arial(als het niet beschikbaar is Helvetica*/
+table{
+    text-align: center;
+    margin-bottom: 100px;
+    margin: 0 auto;
+}
+/*Dit maakt dat de tekst en de tabel zelf gecentreerd staat en er onder de tabel 100 pixels witruimte is*/
+.indexArticles{
+ background-color: #32748d;
+ margin-top: 140px;
+ text-align: center;
+ padding: 0 15px;
+}
+/*Dit maakt de achtergrond van dit blok grijs en geeft het een bovenruimte van 140 pixels
+De padding zorgt ervoor dat het 15 pixels boven en onder de tekst het blok dikker maakt*/
+.wit{
+    color: white;
+}
+/*dit maakt de tekstkleur van deze klasse wit*/
+.logo{
+    height: 150px;
+    float: right;
+}
+/*dit maakt dat het logo rechts staat en de groote is 150 pixels*/
+.knop{
+    padding: 12px 8px;
+    background-color: lightblue;
+}
+/*Dit geeft een lightblauwe achtergrondkleur en zorgt voor 12 px links en rechts en 8px boven-onder */
+.footer{
+    background-color: lightblue;
+    text-align: center;
+    margin-top: 75px;
+}
+/*dit geeft het blok een ligtblauwe achtergrondkleur en centreerd de tekst en geeft een witruimte van 75px erboven*/
+.indextitel{
+    color: #7ed957;
+}
+/*dit zorgt voor een groene tekstkleur*/
+.belangrijkeTekst{
+    color: cadetblue;
+}
+/*Dit maakt de tekst cadetblauw van kleur*/
+#belangrijkste{
+    padding: 12px 8px;
+     color: black;
+    background-color: lightblue;
+    text-align: center;
+}
+/*Dit centreerd de tekst en maakt de achtergrond ligtblauw, de padding maakt het blok dikker*/
+#hoofd2depagina{
+    color: white;
+    text-align: center;
+}
+/*Dit centreerd en maakt de tekst wit*/
+.foto{
+    height: 220px;
+}
+/*dit bepaalt de hoogte van de foto*/ 
+#tafel2{
+    margin-left: 200px;
+    margin-bottom: 45px ;
+}
+/*Dit zorgt ervoor dat de tabel in het midden van het scherm staat en er 45 px witruimte is*/
+#hoofding{
+    color:white;
+text-align: center;
+}
+/*Dit centreerd en maakt de tekstkleur wit*/
