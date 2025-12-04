@@ -1,21 +1,64 @@
-<!-- website RadioGaGA -->
 <!DOCTYPE html>
 <html lang="nl">
-    <head>
-        <meta charset="UTF-8">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- De tekst die komt op het tablat in de browser. -->
+    <title>Voetbalinfo</title>
+    <link rel="stylesheet" href="Styles.css"/>
+</head>
+<body>
+ <header>
+     <img class="logo" src="images/logo_website.jpg" alt="mijn logo van de website">
+     <!--Ik heb deze foto de class logo gegeven om die later in mijn css te kunnen aanpassen.-->
+    <nav>
+        <ul class="knop"><a href="index.html">Menu</a></ul>
+    </nav>
+       <!--Dit is mijn navigatie van mijn menubalk-->
+    
+        <h1 id="hoofding">Voetbalinfo</h1>
+ </header>
+ <main>
+    <table id="tafel2">
+        <tr>
+            <td>
+    <section class="indexArticles">
+        <h1 class="indextitel">Uitleg</h1>
+        <p class="wit">voetbal is een spel dat je met twee teams speelt.
+           Elk team heeft 11 spelers,10 op het veld en 1 keeper.
+           Het doel is om de bal in het doel van de tegenstander te schieten.
+           Een voetbalveld is ongeveer 100 meter lang en 64 meter breedt.
+           Het doel is meer dan 7 meter breed en ongeveer 2,5 meter hoog.
+           De bal is rond en even groot als een strandbal.
+           Een wedstrijd duurt 90 minuten, met een pauze in het midden.
+        </p>   
+    </section>
+            </td>
+            <td>
+                    <section class="indexArticles">
+        <h1 class="indextitel">Regels</h1>
+        <p class="wit"> Alleen de keeper mag de bal met zijn handen aanraken,
+            en dat mag alleen in zijn eigen doelgebied. 
+            Alle andere spelers moeten de bal met hun voeten,
+            hoofd of lichaam spelen, maar niet met hun armen of handen. 
+            Als een speler te hard of gevaarlijk speelt, kan de scheidsrechter een 
+            vrije trap of 
+            zelfs een gele of rode kaart geven. Bij buitenspel mag
+            een speler niet dichter bij het doel van de tegenstander staan dan de laatste 
+            verdediger op het moment dat de bal naar hem wordt gespeeld.
+        </p>    
+    </section>
+            </td>
+        </tr>
+    </table>
+<!--Ik heb hiervan een table gemaakt omdat ik de 2 artikels op die manier naast elkaar kan zetten-->
 
-        <meta name="robots" content="all">
-	    <meta name="language" content="Dutch">
-	    <meta name="author" content="je eigen naam">
-	    <meta name="description" content="RadioGaGa marketing">
-	    <meta name="keywords" content="RadioGaGa, muziek, playlist">
-	    <meta name="copyright" content="copyright">
-
-        <link rel="stylesheet" href="styles.css">
-		<link rel="stylesheet" href="responsive.css">
-
-        <title>RadioGaGa</title>
-    </head>
-    <body>
+    <nav>
+        <ul id="belangrijkste"><a href="belangrijksteTrofeeën.html">Meest belangrijke trofeeën</a></ul>
+    </nav>
+    <!--Dit is mijn navigatie om naar mijn 2de pagina te gaan. de id heb ik gemaakt om de opmaak van deze navigatie aan te passen-->
+ </main>
+ <footer class="footer"><p>Nog vragen?   e-mail: lars.desutter@leerling.molenland.be</p></footer>
+ <!--Dit is mijn footer met mijn e-mail erin-->
 </body>
 </html>
